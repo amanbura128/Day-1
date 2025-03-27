@@ -1,0 +1,34 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+header {
+  color: rgb(0, 204, 255);
+  text-align: left;
+  font-size: 30px;
+}
+#ac {
+  color: rgb(255, 255, 255);
+  text-align: right;
+}
+ #ab {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: medium;
+}
+
+h1 {
+  font-family: verdana;
+  font-size: xx-large;
+  color: aliceblue;
+}
+div {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(59, 112, 108);
+}
+input {
+  width: 150px;
+  height: 20px;
+ align-items: center;
+}
