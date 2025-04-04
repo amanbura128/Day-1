@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:  system-ui, 
+                 "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    background-color: white;
+    line-height: 1.6;
+    background-color: rgb(32, 32, 32);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+   
+}
+.container, .nav-item {
+    display: flex;
+    gap: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    color: red;
+    font-weight: bold;
+    font-size: 50px;
+}
+nav :hover {
+    color: rgb(235, 62, 62);
+}
+.movie-details h1 {
+    color: white;
+    padding-left: 38px;
+}
+.movie-details p {
+    color: white;
+    padding: 20px;
+}
+.buttons {
+    padding-left: 25px;
+    padding-top: 15px;
+}
+.buttons {
+    display: flex;
+    gap: 15px;
+    padding-left: 25px;
+    padding-top: 15px;
+    align-items: center;
+}
+
+
+.play-btn {
+    background-color: white;
+    color: black;
+    padding: 10px 25px;
+    margin: 27px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.play-btn:hover {
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent on hover */
+    transform: scale(1.05);
+}
+
+
+.save-btn {
+    background-color: rgba(92, 92, 97, 0.7);
+    color: white;
+    padding: 10px 25px;
+    font-size: 1.1rem;
+    border: none;
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.save-btn:hover {
+    background-color: rgba(109, 109, 110, 1);
+    transform: scale(1.05);
+}
+
+.movie-container {
+    display: flex;
+}
+.right img{
+    width: 900px;
+    height: 600px;
+}
+.lists{
+    display: flex;
+    gap: 10px;
+}
+.movie{
+    width: 200px;
+    height: 250px;
+    background-color: rgb(48, 49, 49);
+    border-radius: 25px;
+}
+.para {
+    display: flex;
+    color: white;
+    padding-left: 70px ;
+   font-size: 25px;
+   padding-bottom: 10px;
+
+}
